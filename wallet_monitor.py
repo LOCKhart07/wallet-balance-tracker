@@ -151,10 +151,16 @@ def run(give_request_format: bool = False):
 
                 if SHOULD_NOTIFY and needs_topup:
                     message = (
-                        f"⚠️ Wallet '{wallet_name}' on {chain} needs a top-up of "
-                        f"{topup_eth:.6f} {symbol_display} (current balance: "
-                        f"{balance_eth:.6f}, threshold: {threshold_eth:.6f})"
+                        "⚠️ *Top-up Alert*\n"
+                        f"• **Wallet:** `{wallet_name}`\n"
+                        f"• **Address:** `{wallet_address}`\n"
+                        f"• **Chain:** `{chain}`\n"
+                        f"• **Token:** `{symbol_display}`\n"
+                        f"• **Current Balance:** `{balance_eth:.6f}`\n"
+                        f"• **Threshold:** `{threshold_eth:.6f}`\n"
+                        f"• **Suggested Top-up:** `{topup_eth:.6f}`\n"
                     )
+
                     if give_request_format:
                         # Feature not implemented: placeholder for future request format
                         request_message = ""
