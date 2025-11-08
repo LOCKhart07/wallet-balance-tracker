@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
-DAILY_RUN_TIME = "01:28"
+DAILY_RUN_TIME = os.getenv("DAILY_RUN_TIME", "09:00")  # Default to 9 AM
 
 
 # --- Job runner ---
