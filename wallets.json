@@ -1,0 +1,145 @@
+{
+    "Contribute Safe Ethereum": {
+        "address": "0x12b680F1Ffb678598eFC0C57BB2edCAebB762A9A",
+        "chain": "ethereum",
+        "tokens": {
+            "ETH": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 14526000000000000,
+                "threshold": 300000000000000
+            }
+        }
+    },
+    "Contribute Safe Base": {
+        "address": "0x3316b59A6c4C3ee2920EecE0B02A6d40AAa6b9c9",
+        "chain": "base",
+        "tokens": {
+            "ETH": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 14526000000000000,
+                "threshold": 300000000000000
+            }
+        }
+    },
+    "Contribute Safe Gnosis": {
+        "address": "0x6B47A6a481dD717526Feaad358fF873f7760B074",
+        "chain": "gnosis",
+        "tokens": {
+            "xDAI": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 50000000000000000000,
+                "threshold": 5000000000000000
+            }
+        }
+    },
+    "Contribute Agent 1 Gnosis": {
+        "address": "0xc6D322afc319EC651eF8e194f37cC52f3137c393",
+        "chain": "gnosis",
+        "tokens": {
+            "xDAI": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 300000000000000000,
+                "threshold": 100000000000000
+            }
+        }
+    },
+    "Contribute Agent 1 Base": {
+        "address": "0xc6D322afc319EC651eF8e194f37cC52f3137c393",
+        "chain": "base",
+        "tokens": {
+            "ETH": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 87000000000000,
+                "threshold": 290000000
+            }
+        }
+    },
+    "Contribute Agent 2 Base": {
+        "address": "0x0b20d156A207EDC2d1D30936b5a7B9F077A0c89e",
+        "chain": "base",
+        "tokens": {
+            "ETH": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 87000000000000,
+                "threshold": 290000000
+            }
+        }
+    },
+    "Contribute Agent 2 Gnosis": {
+        "address": "0x0b20d156A207EDC2d1D30936b5a7B9F077A0c89e",
+        "chain": "gnosis",
+        "tokens": {
+            "xDAI": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 300000000000000000,
+                "threshold": 100000000000000
+            }
+        }
+    },
+    "Contribute Agent 3 Gnosis": {
+        "address": "0x5E0fbDb17A976c653a7ab48146d72F3a59dfab37",
+        "chain": "gnosis",
+        "tokens": {
+            "xDAI": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 300000000000000000,
+                "threshold": 100000000000000
+            }
+        }
+    },
+    "Contribute Agent 3 Base": {
+        "address": "0x5E0fbDb17A976c653a7ab48146d72F3a59dfab37",
+        "chain": "base",
+        "tokens": {
+            "ETH": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 87000000000000,
+                "threshold": 290000000
+            }
+        }
+    },
+    "Contribute Agent 4 Gnosis": {
+        "address": "0x1d1b64C0d38fbd270813Eea35e6F2652337E1e5f",
+        "chain": "gnosis",
+        "tokens": {
+            "xDAI": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 300000000000000000,
+                "threshold": 100000000000000
+            }
+        }
+    },
+    "Contribute Agent 4 Base": {
+        "address": "0x1d1b64C0d38fbd270813Eea35e6F2652337E1e5f",
+        "chain": "base",
+        "tokens": {
+            "ETH": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 87000000000000,
+                "threshold": 290000000
+            }
+        }
+    },
+    "Market Creator Pearl": {
+        "address": "0xFfc8029154ECD55ABED15BD428bA596E7D23f557",
+        "chain": "gnosis",
+        "tokens": {
+            "xDAI": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 200000000000000000000,
+                "threshold": 5000000000000000000
+            }
+        }
+    },
+    "Market Creator QS": {
+        "address": "0x89c5cc945dd550BcFfb72Fe42BfF002429F46Fec",
+        "chain": "gnosis",
+        "tokens": {
+            "xDAI": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 200000000000000000000,
+                "threshold": 5000000000000000000
+            }
+        }
+    }
+}
