@@ -44,9 +44,26 @@ async def wallet_status_command(update: Update, context: ContextTypes.DEFAULT_TY
         await update.message.reply_text(f"❌ Error: {e}")
 
 
+async def all_wallets_status_command(
+    update: Update, context: ContextTypes.DEFAULT_TYPE
+):
+    """When user sends /all_status, gives balances of all wallets."""
+    logger.info("Received /all_status command.")
+    await update.message.reply_text("⏳ Running for all wallets now...")
+    try:
+        run(inform_regardless_of_balance=True)
+        await update.message.reply_text(
+            "✅ Run for all wallets completed successfully."
+        )
+    except Exception as e:
+        logger.exception("Error while running task via /all_status")
+        await update.message.reply_text(f"❌ Error: {e}")
+
+
 async def set_bot_commands(application: Application):
     commands = [
         BotCommand("status", "Run the wallet monitor now"),
+        BotCommand("all_status", "Get status of all wallets"),
     ]
     await application.bot.set_my_commands(commands)
 
@@ -59,6 +76,7 @@ def main():
     # Start Telegram bot
     application = ApplicationBuilder().token(TELEGRAM_BOT_TOKEN).build()
     application.add_handler(CommandHandler("status", wallet_status_command))
+    application.add_handler(CommandHandler("all_status", all_wallets_status_command))
     application.post_init = set_bot_commands
 
     # Start the bot (blocking)

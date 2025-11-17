@@ -107,7 +107,7 @@ def format_amount(wei_value, decimals):
     return wei_value / (10**decimals)
 
 
-def run(give_request_format: bool = False):
+def run(give_request_format: bool = False, inform_regardless_of_balance: bool = False):
     # Check RPCs
     for chain, w3 in WEB3_PROVIDERS.items():
         print(f"{chain}: connected={w3.is_connected()}")
@@ -149,7 +149,7 @@ def run(give_request_format: bool = False):
                     f"(threshold={threshold_eth:.6f}) {status}"
                 )
 
-                if SHOULD_NOTIFY and needs_topup:
+                if (SHOULD_NOTIFY and needs_topup) or inform_regardless_of_balance:
                     message = (
                         "⚠️ *Top-up Alert*\n"
                         f"• **Wallet:** `{wallet_name}`\n"
