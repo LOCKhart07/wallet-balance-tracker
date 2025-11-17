@@ -150,11 +150,11 @@ def run(give_request_format: bool = False, inform_regardless_of_balance: bool = 
                 )
 
                 if (SHOULD_NOTIFY and needs_topup) or inform_regardless_of_balance:
+                    alert_message = (
+                        "⚠️ *Top-up Alert*\n" if needs_topup else "ℹ️ *Wallet Status*\n"
+                    )
                     message = (
-                        "⚠️ *Top-up Alert*\n"
-                        if needs_topup
-                        else "ℹ️ *Wallet Status*\n"
-                        f"• **Wallet:** `{wallet_name}`\n"
+                        alert_message + f"• **Wallet:** `{wallet_name}`\n"
                         f"• **Address:** `{wallet_address}`\n"
                         f"• **Chain:** `{chain}`\n"
                         f"• **Token:** `{symbol_display}`\n"
