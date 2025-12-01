@@ -151,5 +151,27 @@
                 "threshold": 500000000000000
             }
         }
+    },
+    "Market Creator Pearl - Agent EOA": {
+        "address": "0xEBFf9A4079292aDDdC3d639cF39bfe7F9e4740ab",
+        "chain": "gnosis",
+        "tokens": {
+            "xDAI": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 1000000000000000000,
+                "threshold": 500000000000000
+            }
+        }
+    },
+    "Market Creator QS - Agent EOA": {
+        "address": "0x1CaC05cF0BB39945bB0c6446a36B3fD8e26bE285",
+        "chain": "gnosis",
+        "tokens": {
+            "xDAI": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 1000000000000000000,
+                "threshold": 500000000000000
+            }
+        }
     }
 }
