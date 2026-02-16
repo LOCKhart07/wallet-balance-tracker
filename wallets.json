@@ -52,5 +52,38 @@
                 "threshold": 500000000000000
             }
         }
+    },
+    "x402 Facilitator - Gnosis": {
+        "address": "0x12A9a43b97985F160B1ca4F28B4bb8fe359Aa21b",
+        "chain": "gnosis",
+        "tokens": {
+            "xDAI": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 200000000000000,
+                "threshold": 200000000000000
+            }
+        }
+    },
+    "x402 Facilitator - Polygon": {
+        "address": "0x12A9a43b97985F160B1ca4F28B4bb8fe359Aa21b",
+        "chain": "polygon",
+        "tokens": {
+            "ETH": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 200000000000000,
+                "threshold": 200000000000000
+            }
+        }
+    },
+    "x402 Facilitator - Base": {
+        "address": "0x12A9a43b97985F160B1ca4F28B4bb8fe359Aa21b",
+        "chain": "base",
+        "tokens": {
+            "ETH": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "topup": 200000000000000,
+                "threshold": 200000000000000
+            }
+        }
     }
 }
